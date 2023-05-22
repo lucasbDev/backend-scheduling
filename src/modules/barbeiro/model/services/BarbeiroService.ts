@@ -32,3 +32,5 @@ export class BarbeiroService {
     return barbeiro;
   }
 }
+
+export default BarbeiroService
