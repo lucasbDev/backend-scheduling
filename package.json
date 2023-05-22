@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+     "node": "18"
+  },
   "scripts": {
-    "dev": "tsx watch src/shared/server.ts",
-    "vercel-build": "npx prisma migrate deploy"
+    "dev": "tsx watch src/shared/server.ts"
   },
   "keywords": [],
   "author": "",
